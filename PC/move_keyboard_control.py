@@ -56,7 +56,7 @@ def update_display():
 
 
 # Initialize the serial port
-ser = serial.Serial('COM5', 9600)  # Set the correct COM port and communication speed
+ser = serial.Serial('COM3', 9600)  # Set the correct COM port and communication speed
 
 # Create the main window
 root = tk.Tk()
